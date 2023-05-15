@@ -1,7 +1,7 @@
 import React from 'react'
 
 export interface ButtonProps {
-  label: string
+  label: 'label 1' | 'label 2' | 'label 3'
 }
 
 function Button({ label }: ButtonProps) {
